@@ -1,0 +1,91 @@
+@import "variables";
+@import "typography";
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  height: 100%;
+  background-color: $background-color;
+  margin: 0;
+  padding: 0;
+  min-height: 100% !important;
+  overflow-x: hidden;
+  font: inherit;
+  font-size: 100%;
+  font-family: $main-font-family;
+  // color: #000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  cursor: pointer;
+}
+
+// [type="checkbox"],
+// [type="radio"] {
+//   color: $semiLightGreenII !important;
+
+//   &:focus {
+//     --tw-ring-color: $semiLightGreenII !important;
+//     --tw-ring-shadow: $semiLightGreenII !important;
+//   }
+// }
+
+input::-ms-reveal,
+input::-ms-clear {
+  display: none;
+}
+
+::-ms-reveal {
+  display: none;
+}
+
+// ::-moz-selection {
+//   color: $background-color;
+//   background: $light-green;
+// }
+
+// ::selection {
+//   color: $background-color;
+//   background: $light-green;
+// }
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 5px;
+
+  @media (max-width: 991px) {
+    height: 3px;
+  }
+}
+
+// ::-webkit-scrollbar-track {
+//   border-radius: 16px;
+//   background-color: $semiLightGreenII;
+//   background-color: $background-color ;
+// }
+
+// ::-webkit-scrollbar-thumb {
+//   background: $dark-green;
+//   background: $semiLightGreenII;
+//   border-radius: 16px;
+// }
