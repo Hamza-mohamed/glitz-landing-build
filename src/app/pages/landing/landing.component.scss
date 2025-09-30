@@ -1,0 +1,20 @@
+main {
+  min-height: auto;
+  // min-height: 100dvh;
+
+  @media (max-width: 767px) {
+    min-height: auto;
+  }
+}
+
+.landing-page {
+  @apply bg-cover bg-no-repeat bg-center;
+
+  // Mobile background
+  background-image: url("public/images/mobile.webp");
+
+  @media (min-width: 991px) {
+    // Desktop background/
+    background-image: url("public/images/desktop.webp");
+  }
+}

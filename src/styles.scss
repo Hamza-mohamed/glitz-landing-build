@@ -1,0 +1,30 @@
+// Base styles
+@use "reset";
+@use "typography";
+
+// Variables
+@use "variables";
+
+// Tailwind CSS
+@use "tailwindcss";
+
+// Primeng icons
+@use "primeicons/primeicons.css";
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
+}
+
+// Tailwind CSS custom theme
+@theme {
+  --color-primary: #1a43bf;
+  --color-primaryHover: #183dae;
+  --color-secondary: #1daced;
+  --color-secondaryHover: #1a9dd8;
+  --color-mainWhite: #ffffff;
+  --font-bagel: "Bagel Fat One", sans-serif , system-ui;
+  --font-roboto: "Roboto", sans-serif;
+}

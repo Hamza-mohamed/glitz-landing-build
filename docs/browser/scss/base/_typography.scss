@@ -1,0 +1,48 @@
+$light: 300;
+$regular: 400;
+$bold: 700;
+$main-font-family: "Roboto", sans-serif;
+
+// Roboto
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url("/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url("/fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+// Bagel Fat One
+@font-face {
+  font-family: "Bagel Fat One", sans-serif;
+  src: url("/fonts/BagelFatOne/BagelFatOne-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.1;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+p {
+  margin-top: 0;
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+}
